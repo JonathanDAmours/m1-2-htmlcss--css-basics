@@ -1,27 +1,23 @@
 img {
   max-width: 300px;
 }
-
-.container {
-  position: relative;
-}
-
 .img1 {
-  position: relative;
+  z-index: 2;
 }
-
 .img2 {
-  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
 }
-
 .img3 {
-  position: fixed;
-  top: 45%;
-  left: 38%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
 .img4 {
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }

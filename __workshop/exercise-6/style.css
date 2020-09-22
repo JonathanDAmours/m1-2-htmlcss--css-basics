@@ -23,19 +23,35 @@ body {
 
 h1,
 h2 {
+  font-family: "Bangers", sans-serif;
 }
 
 h1 {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  margin: 25px;
 }
 
 h2 {
+  font-size: 90%;
+  position: relative;
+  text-align: center;
+  padding-bottom: 12px;
 }
 
 .row {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 .col {
+  background-color: #e2e2e2;
+  border: black 1px dashed;
+  padding: 12px;
 }
 
 .image {
+  max-height: 120px;
 }

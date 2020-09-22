@@ -17,3 +17,51 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  font-family: "Bangers";
+}
+
+h1, h3{
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-size: 170%;
+}
+
+h2 {
+  font-size: 120%;
+  margin: 10px 0 10px 0;
+}
+
+h3{
+  font-size: smaller;
+}
+
+.image {
+  max-height: 80px;
+
+}
+
+.box {
+  background-color: #e2e2e2;
+  box-sizing: border-box;
+  border: black 1px dashed;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+.section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.whaleimage {
+  width: 110px;
+}
